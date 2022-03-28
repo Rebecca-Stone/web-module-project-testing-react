@@ -19,11 +19,11 @@ Get the project fired up and start using it as a user would. Try to go through t
 
 ## Instructions
 ### Task 1: Project Set Up
-* [ ] Create a forked copy of this project.
-* [ ] Clone your OWN version of the repository in your terminal
-* [ ] cd into the project base directory `cd web-module-project-reducer-pattern`
-* [ ] Download project dependencies by running `npm install`
-* [ ] Start up the app using `npm start`
+* [X] Create a forked copy of this project.
+* [X] Clone your OWN version of the repository in your terminal
+* [X] cd into the project base directory `cd web-module-project-reducer-pattern`
+* [X] Download project dependencies by running `npm install`
+* [X] Start up the app using `npm start`
 - [ ] With each saved change in your editor, the test runner will re-run all the tests
 - [ ] **IMPORTANT** If a test fails, use the test runner's error messages to find out why it is failing
 
@@ -31,7 +31,7 @@ Get the project fired up and start using it as a user would. Try to go through t
 #### The Episode Component
 > *This component displays a single episode worth of data. To test it, let's try our some different varieties on what we should pass into our component's props.*
 
-* [ ] Complete a test that shows the Episode component renders. Pass in the provided example episode data as a test prop.
+* [X] Complete a test that shows the Episode component renders. Pass in the provided example episode data as a test prop.
 * [ ] Modify the test data to display a specific summary statement. Complete a test that shows that the summary value passed in to the Episode component displays as expected. **Use at least then 3 different types of expect statements to test the the existence of the summary value.**
 * [ ] The episode component displays a default value ('https://i.ibb.co/2FsfXqM/stranger-things.png') when a image url is not provided. Create a new piece of test data with the image property set to `null`. Test that the alt tag of the image displayed is set to './stranger_things.png'.
 
@@ -61,8 +61,8 @@ Get the project fired up and start using it as a user would. Try to go through t
 - Add React Router, and add the functionality to click an episode and navigate to an episode page.
 
 ### Submission Format
-- [ ] If this is your first time connecting a submission, authorize your github account within the codegrade assignment.
-- [ ] Connect your fork to Codegrade using the "Connect Git" button.
-- [ ] Find your newly created fork from the list and push your work to main.
-- [ ] Check this video for details: www.youtube.com/watch?v=fC2BO7dI6IQ
+- [X] If this is your first time connecting a submission, authorize your github account within the codegrade assignment.
+- [X] Connect your fork to Codegrade using the "Connect Git" button.
+- [X] Find your newly created fork from the list and push your work to main.
+- [X] Check this video for details: www.youtube.com/watch?v=fC2BO7dI6IQ
 
