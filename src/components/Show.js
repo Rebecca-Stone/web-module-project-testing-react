@@ -12,16 +12,17 @@ const Show = (props) => {
     <div data-testid="show-container">
       <h1>{show.name}</h1>
       <p>{show.summary}</p>
-
       <label htmlFor="seasons">Select A Season</label><br />
       <select onChange={handleSelect} name="seasons" id="seasons">
         <option value="none"></option>
         {
           show.seasons.map(season => {
+            console.log(show)
             return (<option data-testid="season-option" key={season.id} value={season.id}>{season.name}</option>);
           })
         }
       </select>
+      
 
       {
         (selectedSeason !== "none") && <Episodes episodes={show.seasons[selectedSeason].episodes} />
